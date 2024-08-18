@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+   
+   
+}
+body{
+    background-image: url(allu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+ 
+
+}
+header{
+    background-color: rgb(67, 128, 240);
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+     display: flex;
+    
+    align-items:center; 
+    
+   position: fixed;
+ 
+    top: 0; 
+    
+} 
+.rf{
+ margin-left: 900px;
+}
+#d2{
+    height: 90px;
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right,  rgb(67, 128, 240) , rgb(234, 39, 192) );
+    color: white;
+position: sticky;
+top: 20%;
+  
+   
+  
+}
+#h1{
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+#h2{
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 40%;
+}
+#h3{
+    position: absolute;
+    z-index: 0;
+    top: 60px;
+    left: 71%;
+}
+
+#pg{
+    border: 1px solid black;
+    background-color: white;
+    height: 750px;
+ border-radius: 15px;
+   padding: 10px;
+margin-top: 10%;
+margin-left: 10px;
+margin-right: 10px;
+}
+p{
+    margin-top: 20px;
+   
+}
+span{
+    margin-left: 30px;
+}
+.img{
+border: 1px solid black;
+margin: 10px 20px 10px 20px;
+text-align: center;
+height: 200px;
+}
+
+.img2{
+    margin: 10px 20px 10px 20px;  
+   
+}
+.f{
+    border: 1px solid black;
+    height: 300px;
+    background-color: green;
+    margin-top: 20px;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    padding: 10px;
+
+   
+}
